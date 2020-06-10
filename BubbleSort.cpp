@@ -15,8 +15,7 @@ vector<int> bubbleSort (vector<int> r){
                 r[j+1] = r[j];
                 r[j] = temp;
             }
-        }
-                
+        }         
     }
     return r;
 }
@@ -29,6 +28,5 @@ int main()
     for (int i= 0; i < p.size(); i++){
          cout << p[i] <<endl;
     }
-   
     return 0;
 }
