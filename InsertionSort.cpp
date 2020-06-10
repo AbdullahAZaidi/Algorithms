@@ -5,7 +5,7 @@ using namespace std;
 
 
 
-vector<int> bubbleSort (vector<int> r){
+vector<int> InsertionSort (vector<int> r){
     int count = 0;
     vector <int> w;
     for (int i= 0; i < r.size(); i++){
@@ -25,7 +25,7 @@ vector<int> bubbleSort (vector<int> r){
 int main()
 {
     vector<int> v = {1,2,5,5,6,7,3,4,4,3,343,565,77};
-    vector<int> p = bubbleSort(v);
+    vector<int> p = InsertionSort(v);
     for (int i= 0; i < p.size(); i++){
          cout << p[i] <<endl;
     }
